@@ -151,11 +151,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
+    gap: 5px;
   }
 
   .card {
-    width: 48%;
+    width: 47%;
   }
 
   .card h3 {
