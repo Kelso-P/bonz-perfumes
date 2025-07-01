@@ -1,0 +1,79 @@
+/* about.css */
+body, html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #3c0069;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #3c0069;
+}
+
+.logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+main {
+  flex-grow: 1;
+  padding: 48px;
+}
+
+main h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 36px;
+  color: #3c0069;
+}
+
+.info-box {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto 32px;
+}
+
+.info-box h3 {
+  margin-top: 0px;
+  font-size: 22px;
+  color: #3c0069;
+}
+
+.info-box p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #3c0069;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #2b004e;
+  color: white;
+  font-size: 14px;
+  margin-top: auto;
+}
