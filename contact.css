@@ -126,13 +126,13 @@ footer {
 
   .contact-grid {
     flex-direction: column;
-    gap: 24px;
+    gap: 16px;
     align-items: center;
   }
 
   .contact-box {
     width: 90%;
-    padding: 24px;
+    padding: 16px;
   }
 
   .contact-box h3 {
